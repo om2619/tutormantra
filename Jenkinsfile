@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('pipe') {
       steps {
-        fileExists 'domainstart.sh'
+        echo 'Hello'
       }
     }
 
